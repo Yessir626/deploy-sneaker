@@ -16,7 +16,7 @@ app.use(session({
   secret: 'your_secret_key', // Replace with your own secret key
   resave: false,
   saveUninitialized: false,
-  store: MongoStore.create({ mongoUrl: 'mongodb://localhost:27017/sneakersessions' }),
+  store: MongoStore.create({ mongoUrl: 'mongodb+srv://muhamadyasirbuanadyva:nexussoul626@mymongodb.yrufkpn.mongodb.net/sneakersessions' }),
   cookie: { maxAge: 1000 * 60 * 60 * 24 } // Session valid for 1 day
 }));
 
